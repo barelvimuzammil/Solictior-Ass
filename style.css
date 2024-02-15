@@ -1,0 +1,111 @@
+body {
+    background-color: #1b1c1e;
+  }
+  
+  .background-image {
+    background-image: url(./hero_1.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+    opacity: 0.95;
+  }
+  
+  /* .background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 160px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  } */
+  
+  .width-20 {
+    width: 20%;
+  }
+  
+  .font-s-14 {
+    font-size: 14px;
+  }
+  
+  .font-s-20 {
+    font-size: 20px;
+  }
+  
+  section {
+    padding: 7rem 0;
+  }
+  
+  .img {
+    flex: 0 0 40px;
+    margin-right: 20px;
+  }
+  
+  .img img {
+    border-radius: 50%;
+  }
+  
+  .h-link {
+    color: #fff;
+  }
+  
+  .bi-telephone-fill {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  
+  .heading {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  
+  .form-control {
+    height: 54px;
+    background-color: rgba(255, 255, 255, 0.02) !important;
+    border-color: rgba(255, 255, 255, 0.02) !important;
+    color: #fff;
+    outline: none !important;
+    border: none !important;
+  }
+  
+  .form-control::placeholder {
+    color: #ddd;
+  }
+  
+  .form-control:active,
+  .form-control :focus {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.05) !important;
+  }
+  
+  .text-area {
+    height: 254px !important;
+    resize: none;
+    padding: 10px 20px;
+  }
+  
+  .site-footer a {
+    color: #777;
+    text-decoration: none;
+    border-bottom: 5px solid rgba(3, 126, 243, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .site-footer a:hover {
+    border-bottom: 5px solid #037ef3;
+    color: #fff;
+  }
+  
+  .list {
+    margin-right: 40px;
+  }
+  
+  .site-footer li {
+    margin-bottom: 10px;
+  }
+  
